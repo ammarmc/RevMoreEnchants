@@ -1,0 +1,6 @@
+name: RevMoreEnchants
+main: me.revils.revmoreenchants.Main
+version: 1.0
+description: Custom Enchants plugin
+author: RevilsTeam
+depend: [RevEnchants]

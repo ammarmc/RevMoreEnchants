@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RevMoreEnchants">
+    <output-path>$PROJECT_DIR$/out/artifacts/RevMoreEnchants</output-path>
+    <root id="archive" name="RevMoreEnchants.jar">
+      <element id="module-output" name="RevMoreEnchants" />
+    </root>
+  </artifact>
+</component>

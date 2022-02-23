@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RevEnchantsApi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../RevEnchantsAllApi/RevEnchantsApi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
