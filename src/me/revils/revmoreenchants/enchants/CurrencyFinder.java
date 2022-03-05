@@ -113,6 +113,7 @@ public class CurrencyFinder implements Listener {
             EFile.set("Settings.Slot",3);
             EFile.set("Settings.MaxLevel",1000);
             EFile.set("Settings.MultiBreak",true);
+            EFile.set("Settings.MultiBreakMaxSuccess",1000);
             EFile.set("Settings.Currency","RevToken");
             EFile.set("Settings.Cost",10000);
             EFile.set("Settings.Increase-Cost-by",1000);
@@ -124,6 +125,9 @@ public class CurrencyFinder implements Listener {
             EFile.set("Settings.Description","&7Chance to get tokens key%nl%&7as you mine the chance depend on the level");
             EFile.set("Settings.Book", new ItemStack(Material.BOOK, 1));
 
+            EFile.set("Settings.Message.Enabled",false);// need to do this by yourself
+            EFile.set("Settings.Message.Bar",true);
+            EFile.set("Settings.Message.Format","&7CurrencyFinder %Amount_FormattedA%");
             RevEnchantsApi.saveEnchantsFile(ID);
 
         }

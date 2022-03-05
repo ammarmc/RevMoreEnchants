@@ -114,6 +114,7 @@ public class lol implements Listener {
             EFile.set("Settings.Slot",2);
             EFile.set("Settings.MaxLevel",1000);
             EFile.set("Settings.MultiBreak",true);
+            EFile.set("Settings.MultiBreakMaxSuccess",1000);
             EFile.set("Settings.Currency","RevToken");
             EFile.set("Settings.Cost",10000);
             EFile.set("Settings.Increase-Cost-by",1000);
@@ -128,7 +129,9 @@ public class lol implements Listener {
 
             //this option required just for this enchantment
             EFile.set("Settings.Message", "lol");
-
+            EFile.set("Settings.Message.Enabled",false);// need to do this by yourself
+            EFile.set("Settings.Message.Bar",true);
+            EFile.set("Settings.Message.Format","&7SayLol %Amount_FormattedA%");
             RevEnchantsApi.saveEnchantsFile(ID);
 
         }
