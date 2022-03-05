@@ -31,13 +31,13 @@ public class CurrencyFinder implements Listener {
         /// check if enchantment is enabled in config
         if (EFile.getBoolean("Settings.Enabled",true)){
             /// get player PickAxe enchantment level
-            level = item.getEnchant(ID);
+            level = item.getEnchant(ID,event.getPlayer());
         }
         /// check if shard is enabled in config for this enchantment
         if (SFile.getBoolean("Settings.Enabled",true)){
             /// get player PickAxe shard level of that  enchantment
             // its up to you if you want to create shard of the enchants
-            level = level + item.getShardsLevels(ID,SFile.getLong("Settings.MaxStack",100));
+            level = level + item.getShardsLevels(ID,SFile.getLong("Settings.MaxStack",100),event.getPlayer());
 
         }
         /// check player has 0 levels of the enchantment/shard
