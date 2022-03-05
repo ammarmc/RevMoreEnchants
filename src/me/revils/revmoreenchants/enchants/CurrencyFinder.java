@@ -15,8 +15,6 @@ import org.bukkit.inventory.ItemStack;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static org.bukkit.Material.END_STONE;
-
 public class CurrencyFinder implements Listener {
 
     private static String ID = "CurrencyFinder";
